@@ -1,6 +1,6 @@
 /* CSS Variables & Reset */
 :root {
-  --bg-color: #121212;
+  --bg-color: #14120B;
   --text-primary: #ffffff;
   --text-secondary: #000000;
   --accent-color: #ffffff;
@@ -92,7 +92,7 @@ nav {
   font-size: 26px;
   font-weight: lighter;
   margin: 0px 0px 22.4px;
-  margin-top: 16px;
+  margin-top: 100px;
 }
 
 #download-for-macos {
