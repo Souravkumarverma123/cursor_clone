@@ -1,0 +1,154 @@
+/* CSS Variables & Reset */
+:root {
+  --bg-color: #121212;
+  --text-primary: #ffffff;
+  --text-secondary: #000000;
+  --accent-color: #ffffff;
+  --border-color: #808080;
+  --font-sans: "Geist", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  position: fixed;
+  margin-left: 77px;
+  background: var(--bg-color);
+}
+
+.logo {
+  padding: 8px;
+  margin-left: 2px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.btn-signin {
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+  border-radius: 34px;
+  border: 0.5px solid var(--border-color);
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.btn-download {
+  background-color: var(--accent-color);
+  color: var(--text-secondary);
+  border-radius: 34px;
+  border: 0.5px solid var(--accent-color);
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+/* main section */
+.hero {
+  padding: 80px;
+}
+
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text h1 {
+  font-family: var(--font-sans);
+  font-size: 26px;
+  font-weight: lighter;
+  margin: 0px 0px 22.4px;
+}
+
+#download-for-macos {
+  background-color: var(--text-primary);
+  padding: 8px 21px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: lighter;
+  border-radius: 34px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 0px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  font-weight: lighter;
+}
+
+.image-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#background{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#overlay{
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+  z-index: 100;
+  width: 90%; 
+  margin-left: 40px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+#heading2{
+  font-size: 13.125px;
+  font-weight: lighter;
+  font-family: var(--font-sans);
+  text-align: center;
+  margin-top: 105px;
+}
+
+.trusted-companies{
+  display: grid;
+  background-color: aqua;
+  color: var(--text-secondary);
+}
