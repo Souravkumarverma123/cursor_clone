@@ -193,7 +193,12 @@ nav {
   padding: 40px;
   margin: 204px 30px;
   font-size: 22px;
+  font-weight: lighter;
   color: #ede5e5;
+}
+.learn-agentic-development-left h3 {
+  color: #f3eded;
+  font-weight: bold;
 }
 .learn-agentic-development-left a {
   text-decoration: none;
