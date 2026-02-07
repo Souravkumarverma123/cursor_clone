@@ -538,3 +538,82 @@ nav {
   border-radius: 8px;
   object-fit: cover;
 }
+
+/* New Features / Changelog Section */
+.new-features {
+  padding: 60px 80px;
+  background-color: var(--bg-color);
+}
+
+.new-features h2 {
+  font-family: var(--font-sans);
+  font-size: 34px;
+  font-weight: 300;
+  color: var(--text-primary);
+  margin-bottom: 30px;
+}
+
+.changelog-cards {
+  display: flex;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.changelog-card {
+  flex: 1;
+  background-color: #1b1913;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100px;
+}
+
+.changelog-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.version-badge {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1aa;
+  padding: 4px 10px;
+  border: 1px solid #3a3a3a;
+  border-radius: 20px;
+}
+
+.changelog-header .date {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 300;
+  color: #71717a;
+}
+
+.changelog-description {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 300;
+  color: #e5e5e5;
+  line-height: 1.5;
+}
+
+.changelog-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  color: #f54e00;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.changelog-link:hover {
+  opacity: 0.8;
+}
