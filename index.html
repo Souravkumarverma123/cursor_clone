@@ -1,77 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cursor - The best way to code with AI. Built to make you extraordinarily productive."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Cursor - The AI Code Editor</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Cursor - The best way to code with AI. Built to make you extraordinarily productive.">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="src/style.css">
-  <title>Cursor - The AI Code Editor</title>
-</head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="/download.svg" alt="logo" />
+      </div>
+      <div class="nav-links">
+        <a href="#Features">Features</a>
+        <a href="#Enterprise">Enterprise</a>
+        <a href="#Pricing">Pricing</a>
+        <a href="#Resources">Resources</a>
+      </div>
+      <div>
+        <button class="btn-signin">Sign in</button>
+        <button class="btn-download">Download</button>
+      </div>
+    </nav>
 
-<body>
-  <nav>
-    <div class="logo">
-      <img src="/download.svg" alt="logo">
-    </div>
-    <div class="nav-links">
-      <a href="#Features">Features</a>
-      <a href="#Enterprise">Enterprise</a>
-      <a href="#Pricing">Pricing</a>
-      <a href="#Resources">Resources</a>
-    </div>
-    <div>
-      <button class="btn-signin">Sign in</button>
-      <button class="btn-download">Download</button>
-    </div>
-  </nav>
+    <main>
+      <section class="hero">
+        <div class="text">
+          <h1>
+            Built to make you extraordinarily productive,<br />
+            Cursor is the best way to code with AI.
+          </h1>
+        </div>
+        <button id="download-for-macos">
+          Download for macOS
+          <img src="/download-svgrepo-com.svg" class="icon" />
+        </button>
+        <div class="image-container">
+          <img
+            id="background"
+            src="/imgi_1_image.webp"
+            alt="background-image"
+          />
+          <img
+            id="overlay"
+            src="/Screenshot 2026-02-03 233220 1 (1)-cropped.svg"
+            alt="overlay"
+          />
+        </div>
+      </section>
 
-  <main>
-    <section class="hero">
-      <div class="text">
-        <h1>Built to make you extraordinarily productive,<br> Cursor is the best way to code with AI.</h1>
-      </div>
-      <button id="download-for-macos">Download for macOS <img src="/download-svgrepo-com.svg" class="icon"></button>
-      <div class="image-container">
-        <img id="background" src="/imgi_1_image.webp" alt="background-image">
-        <img id="overlay" src="/Screenshot 2026-02-03 233220 1 (1)-cropped.svg" alt="overlay">
-      </div>
-    </section>
-    
-    <!-- Grid section -->
-    <section class="companies">
-      <h2 id="heading2"> Trusted every day by teams that build world-class software</h2>
-      <div class="trusted-companies">
-        <div class="company-logo">
-          <img src="/imgi_2_stripe-logo.svg" alt="Stripe">
+      <!-- Grid section -->
+      <section class="companies">
+        <h2 id="heading2">
+          Trusted every day by teams that build world-class software
+        </h2>
+        <div class="trusted-companies">
+          <div class="company-logo">
+            <img src="/imgi_2_stripe-logo.svg" alt="Stripe" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_4_openai-logo.svg" alt="OpenAI" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_6_linear-logo.svg" alt="Linear" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_8_datadog-logo.svg" alt="Datadog" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_10_nvidia-logo.svg" alt="NVIDIA" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_12_figma-logo.svg" alt="Figma" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_14_ramp-logo.svg" alt="Ramp" />
+          </div>
+          <div class="company-logo">
+            <img src="/imgi_16_adobe-logo.svg" alt="Adobe" />
+          </div>
         </div>
-        <div class="company-logo">
-          <img src="/imgi_4_openai-logo.svg" alt="OpenAI">
+      </section>
+
+      <section>
+        <div class="learn-agentic-development">
+          <div class="learn-agentic-development-left">
+            <h3>Agents turn ideas into code</h3>
+            <p> Accelerate development by handing </p>
+            <p>off tasks to Cursor, while you focus on</p>
+            <p>making decisions.</p>
+            <a href="">Learn about agentic development</a>
+          </div>
+          <div class="learn-agentic-development-right">
+            <img src="public/imgi_125_asset-3cb319c263fd5a76115b.png" alt="background">
+          </div>
         </div>
-        <div class="company-logo">
-          <img src="/imgi_6_linear-logo.svg" alt="Linear">
-        </div>
-        <div class="company-logo">
-          <img src="/imgi_8_datadog-logo.svg" alt="Datadog">
-        </div>
-        <div class="company-logo">
-          <img src="/imgi_10_nvidia-logo.svg" alt="NVIDIA">
-        </div>
-        <div class="company-logo">
-          <img src="/imgi_12_figma-logo.svg" alt="Figma">
-        </div>
-        <div class="company-logo">
-          <img src="/imgi_14_ramp-logo.svg" alt="Ramp">
-        </div>
-        <div class="company-logo">
-          <img src="/imgi_16_adobe-logo.svg" alt="Adobe">
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
+      </section>
+    </main>
+  </body>
 </html>

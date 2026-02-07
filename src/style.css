@@ -179,3 +179,29 @@ nav {
   filter: brightness(0) invert(1);
   max-width: 80%;
 }
+
+.learn-agentic-development {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  width: 90%;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+.learn-agentic-development-left {
+  padding: 40px;
+  margin: 204px 30px;
+  font-size: 22px;
+  color: #ede5e5;
+}
+.learn-agentic-development-left a {
+  text-decoration: none;
+  color: #f54e00;
+  margin-top: 20px;
+}
+.learn-agentic-development-right img {
+  width: 759px;
+  height: 680px; 
+  border-radius: 10px;
+}
