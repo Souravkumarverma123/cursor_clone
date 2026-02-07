@@ -315,3 +315,67 @@ nav {
   border-radius: 10px;
   padding-bottom: 40px;
 }
+
+.learn-about-cursor-surface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  width: 90%;
+  background-color: #1b1913;
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+
+.learn-about-cursor-surface-left {
+  padding: 10px;
+  margin: 204px 10px;
+  font-size: 22px;
+  width: 50%;
+  font-weight: lighter;
+  font-family: var(--font-sans);
+  color: #ede5e5;
+}
+
+.learn-about-cursor-surface-left h3 {
+  color: #f3eded;
+  font-weight: normal;
+}
+
+.learn-about-cursor-surface-left p {
+  margin: 0px 0px;
+  font-size: 20px;
+}
+
+.learn-about-cursor-surface-left a {
+  text-decoration: none;
+  color: #f54e00;
+  margin: 0px 0px;
+  font-size: 18px;
+}
+
+.learn-about-cursor-surface-right {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#background3 {
+  width: 100%;
+  height: 150%;
+  border-radius: 5px;
+  display: block;
+}
+ 
+#overlay3 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 100;
+  width: 90%;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 100%;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
