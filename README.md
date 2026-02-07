@@ -5,7 +5,6 @@ A pixel-perfect recreation of the Cursor AI Code Editor landing page, built with
 ## 📸 Preview
 
 ![Cursor Clone Landing Page](./public/screenshot.png)
-
 ## 🚀 Features
 
 - **Modern Design**: Clean, minimalist UI with a dark theme
